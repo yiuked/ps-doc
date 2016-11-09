@@ -1,4 +1,4 @@
-Notifications
+通知
 =============================
 
 Throughout the whole front office, the customer can receive notification messages

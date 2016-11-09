@@ -30,7 +30,7 @@
 
 
 
-Indices and tables
+索引与表
 ==================
 
 * :ref:`genindex`

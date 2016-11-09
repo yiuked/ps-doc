@@ -1,5 +1,5 @@
 ***********************
-Parent/child theme
+父/子 主题
 ***********************
 
 PrestaShop 1.7 relies a lot on :doc:`template inheritance </template-inheritance>` in order to create
@@ -92,7 +92,3 @@ the parent resource (note the parent keyword in the example below).
 .. code-block:: smarty
 
   {extends file='parent:catalog/listing/category.tpl'}
-
-
-
-

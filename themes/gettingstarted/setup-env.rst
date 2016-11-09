@@ -1,4 +1,4 @@
-Setting up your local environment
+搭建本地运行环境
 ==========================================
 
 Now that you intend to building a theme for PrestaShop, you are better off keeping all your development work
@@ -10,7 +10,7 @@ local environment is the essential first step in the path of web development.
 .. note::
   The following content assumes you're a developer and you want to create a theme or a module.
 
-Installing PrestaShop
+安装 PrestaShop
 ------------------------
 
 We advise you to install PrestaShop using `Git`_ and `Composer`_.
@@ -27,13 +27,13 @@ different).
 .. note::
   If you haven't done it yet, we strongly recommend you to read our article `Set Up Your Git For Contributing`_
 
-Building your .gitignore file
+构建你的 .gitignore 文件
 ------------------------------------
 
 A gitignore file is a must-have for any Git-versioned project, as it specifies intentionally untracked
 files that Git should ignore.
 
-What to ignore
+需要忽略哪些内容
 ^^^^^^^^^^^^^^^^^^
 
 Generally, you shouldn’t version the following types of files:
@@ -55,7 +55,7 @@ We suggest that you build your own using http://gitignore.io.
   If you are building a full project for a client, you can read our `article on building a gitignore for PrestaShop`_.
 
 
-Create your theme from the Starter Theme
+通过StarterTheme创建你的主题
 ------------------------------------------------
 
 When you want to create a theme, the best way is to use the StarterTheme as a base theme.
@@ -64,7 +64,7 @@ Create a new folder under ``themes/`` then download the StarterTheme and copy it
 
 `Download StarterTheme <https://github.com/PrestaShop/StarterTheme.git>`_
 
-Create your theme.yml file
+创建 theme.yml 文件
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First of all, you need to rename ``config/theme.dist.yml`` to ``config/theme.yml`` and edit it

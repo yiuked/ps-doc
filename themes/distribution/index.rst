@@ -1,5 +1,5 @@
 *************************************
-Distribution
+发布
 *************************************
 
 Now that you created an amazing theme, you probably want to release it. The following documentation
@@ -11,7 +11,7 @@ But first, you need to test your theme!
 .. include:: testing.rst
 
 
-Creating a valid zip file
+生成一个zip文件
 =============================
 
 There is no longer any theme data in the database with PrestaShop 1.7. Hence a theme is installed as soon as
@@ -41,7 +41,7 @@ Exporting your theme using the button or the command line will export the follow
 * Dependencies specified in ``theme.yml`` (:doc:`See theme.yml doc <../gettingstarted/theme-yml>`)
 * Theme translations
 
-Distributing on Addons
+在Addons发布
 ========================
 
 Please note that if you want to sell your theme on addons there are a few rules to follow:

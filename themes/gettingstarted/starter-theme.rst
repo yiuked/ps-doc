@@ -1,4 +1,4 @@
-Starter Theme
+``Starter`` 主题
 ========================
 
 PrestaShop 1.7 introduces a new way for designers to create their theme from scratch: the Starter Theme.
@@ -22,7 +22,7 @@ By using the Starter Theme as the foundation for your custom theme, everything i
 have to create upon it.
 
 
-Downloading the Starter Theme
+下载 ``Starter`` 主题
 ---------------------------------------
 
 The Starter Theme is available on GitHub: https://github.com/PrestaShop/StarterTheme
@@ -44,7 +44,7 @@ all files inside `_dev/css`.
   specific requirements. For instance, Addons-distributed themes MUST use Bootstrap 4.
 
 
-Modify. Don't override.
+修改，不要重写(override).
 ---------------------------------------
 
 When you want to create a new theme, copy and paste all files from the Starter Theme inside your empty theme directory.

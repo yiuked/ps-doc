@@ -1,4 +1,4 @@
-Enabling the Auto-Update
+开启自动更新
 ===================================================
 
 Since PrestaShop 1.5, it is possible to have your module auto-update:

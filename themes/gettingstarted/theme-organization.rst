@@ -1,7 +1,7 @@
-Theme organization
+主题组织
 ========================
 
-Directory structure
+目录结构
 -----------------------
 
 A PrestaShop theme is a set of files which you can edit in order to change the look of your online shop.
@@ -102,10 +102,10 @@ templates   Contains the template files themselves (.tpl), mostly in contextual 
 =========== ========================================================================================================
 
 
-Required templates and libraries
+必需的模板和库
 ----------------------------------
 
-Required templates
+必需的模板
 ^^^^^^^^^^^^^^^^^^^^^
 
 When you install/enable a theme, PrestaShop checks if the theme is valid: it looks for the theme.yml file
@@ -119,11 +119,10 @@ Starter Theme does. For instance, if you don't have a product page, then you don
 In that case, you just have to create an empty product.tpl file. Be nice to the next developer and
 add a comment indicating where the code related to products can be found ;)
 
-Required libraries
+必需的库
 ^^^^^^^^^^^^^^^^^^^^^
 
 jQuery v2.1 is loaded by the core (bundled in ``core.js``) file, but no other libraries, since the idea is that the
 Starter Theme should not be opinionated.
 
 Read more about :doc:`assets management <../assets/index>`.
-

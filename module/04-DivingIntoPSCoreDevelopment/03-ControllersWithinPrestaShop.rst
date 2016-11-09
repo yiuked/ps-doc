@@ -1,4 +1,4 @@
-Controllers within PrestaShop
+控制器(Controllers)
 ================================================
 
 

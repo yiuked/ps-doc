@@ -1,4 +1,4 @@
-Managing Cookies
+管理 Cookies
 ========================================
 
 PrestaShop uses encrypted cookies to store all the session information,

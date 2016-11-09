@@ -1,4 +1,4 @@
-About Webpack
+关于 Webpack
 =========================
 
 	`Webpack <https://webpack.github.io/>`_ is a module bundler.

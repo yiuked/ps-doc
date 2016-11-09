@@ -1,4 +1,4 @@
-Head
+Head部分
 ===========================
 
 The head part is very important in term of SEO and performences.

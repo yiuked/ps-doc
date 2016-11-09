@@ -1,4 +1,4 @@
-What is a PrestaShop module?
+PrestaShop 模块是什么?
 ====================================
 
 PrestaShop's extensibility revolves around modules, which are small

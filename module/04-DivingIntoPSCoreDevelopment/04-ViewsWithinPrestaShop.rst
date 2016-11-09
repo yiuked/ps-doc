@@ -1,4 +1,4 @@
-Views within PrestaShop
+示图(Views)
 =================================
 
 PrestaShop uses the Smarty template engine to generate its views:

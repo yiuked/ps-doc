@@ -1,5 +1,5 @@
 **************************************
-Overriding modules
+模块重写
 **************************************
 
 
@@ -33,7 +33,7 @@ Examples in this page are based on this sample module directory structure:
   5 directories, 6 files
 
 
-Overriding templates and assets
+重写模板与资源
 =========================================
 
 With PrestaShop 1.7, here are the folder paths to create in order to override templates and assets:
@@ -80,7 +80,7 @@ Compared to what was needed in PrestaShop 1.6, it is much simpler:
   10 directories, 5 files
 
 
-Overriding with the 'include' method
+重写 'include' 方法
 ===========================================
 
 There is one very important issue that you should be aware of.
@@ -105,7 +105,7 @@ PrestaShop 1.7 introduces a new cool way to include files in module templates. B
   {include file='module:MODULE_NAME/views/templates/front/included-template.tpl'}
 
 
-SmartyDev helps you debug!
+使用SmartyDev来调试!
 =======================================
 
 PrestaShop 1.7 also introduces our own SmartyDev tool, an Smarty extension which allows you to see the template's name within your gnerated HTML markup. This will help debuging a lot, especially because of template override.

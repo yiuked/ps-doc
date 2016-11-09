@@ -1,4 +1,4 @@
-Listing pages
+列表页
 =============================
 
 Your catalog is mostly 2 things: a list of product and a detailed product page.

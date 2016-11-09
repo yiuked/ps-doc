@@ -1,4 +1,4 @@
-Module translation
+模块翻译
 =======================================
 
 The module's text strings are written in English, but you might want

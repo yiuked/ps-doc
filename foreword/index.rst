@@ -1,5 +1,5 @@
 **************************************
-Foreword
+前言
 **************************************
 
 This documentation is for developer and designer, it's quite technical.

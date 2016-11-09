@@ -1,5 +1,5 @@
 ***************************************
-Diving into PrestaShop Core Development
+PrestaShop核心开发
 ***************************************
 
 

@@ -1,4 +1,4 @@
-About the config.xml file
+关于 config.xml 文件
 ========================================
 
 The ``config.xml`` file makes it possible to optimize the loading of the

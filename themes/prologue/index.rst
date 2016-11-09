@@ -1,5 +1,5 @@
 ****************
-Prologue
+开场白
 ****************
 
 The default PrestaShop install offers a neutral theme in black and white, enabling sellers to quickly and freely start their activity, whatever their business line.
@@ -11,12 +11,12 @@ As a graphic designer/web developer, you too can put your themes up for sale on 
 
 
 
-Requirements
+安装要求
 =============
 
-Your PHP code should work on PHP 5.4+.
+PHP安装5.4以上的版本.
 
-Your HTML/CSS/JS code should work with at least IE9+, Edge, Firefox 45, and Chrome 29. Mobile-wise: iOS 8.4 and Android Browser 4.4
+HTML/CSS/JS 至少能够在 IE9+, Edge, Firefox 45, Chrome 29 上正常运行. 移动端: iOS 8.4 与 Android Browser 4.4
 
 
 .. include:: coding-standards.rst

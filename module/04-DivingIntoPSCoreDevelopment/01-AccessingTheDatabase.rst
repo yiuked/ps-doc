@@ -1,8 +1,8 @@
-Accessing the database
+访问数据库存
 ================================================
 
 
-The database structure
+数据库结构
 -----------------------------
 
 By default, PrestaShop's database tables start with the ps\_ prefix.

@@ -3,7 +3,7 @@ Theme.yml
 
 The theme's theme.yml file defines all of the theme's configuration and meta information, such as its version number, layouts, compatibility range, hook configuration, etc.
 
-Theme description
+主题描述
 -----------------------
 
 
@@ -33,11 +33,11 @@ Users will be able to choose the layout for each page from the theme's settings 
         description: Great for CMS pages to show advertisements on the side
 
 
-Global settings
+全局
 -----------------------
 
 
-Configuration
+配置
 -----------------------
 
 You can have the theme change the configuration of PrestaShop when the theme is enabled.
@@ -53,7 +53,7 @@ You can have the theme change the configuration of PrestaShop when the theme is 
 
 
 
-Modules
+模块
 -----------------------
 
 
@@ -119,7 +119,7 @@ You can also have the theme create hooks and attach modules to custom and existi
                 - index
 
 
-Image settings
+图片设置
 -----------------------
 
 
@@ -165,7 +165,7 @@ Therefore, themes MUST declare their image types, and what they apply to.
         scope: [categories]
 
 
-Theme settings
+主题设置
 -----------------------
 
 
@@ -186,7 +186,7 @@ When the configuration is changed through the back office interface, only the se
         order-confirmation: layout-left-side-column
 
 
-Dependencies
+依赖
 -------------------
 
 When making a theme you may want to add features with custom modules. It's important that these modules

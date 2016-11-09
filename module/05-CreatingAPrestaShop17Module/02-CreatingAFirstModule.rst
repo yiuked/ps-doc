@@ -1,4 +1,4 @@
-Creating a first module
+创建第一个模块
 ======================================
 
 File structure for a PrestaShop module

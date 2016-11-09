@@ -1,4 +1,4 @@
-Testing
+测试
 ===================
 
 What make a theme valid

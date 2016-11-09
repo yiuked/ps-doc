@@ -1,4 +1,4 @@
-Templates & layouts
+模板与布局(layouts)
 ===========================
 
 PrestaShop template file are based on the `Smarty 3 template engine <http://www.smarty.net/v3_overview>`_.

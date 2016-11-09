@@ -1,16 +1,16 @@
 **************************************
-Fundamentals of PrestaShop Development
+PrestaShop开发基本原理
 **************************************
 
-PrestaShop was conceived so that third-party modules could easily build upon its foundations, making it an extremely customizable e-commerce software.
+基于PrestaShop现的的构架，可以很容易的开发现一个第三方模块, 它是一个高度可定制化电子商务软件.
 
-PrestaShop's customization is based on three possibilities:
+PrestaShop开发定制主要体现在以下三个方面:
 
-* Themes,
-* Modules,
-* Overriding.
+* 模块,
+* 模块,
+* 代码重写.
 
-Themes are explored in full in the Design Guide: TODO: Link to Designer Guide.
+模板主题开发可以参照设计手册: TODO: Link to Designer Guide.
 Modules and the override system are explored in this Developer Guide, starting with the "Concepts" section below. You can learn more about each in the following chapters:
 
 * TODO: Link to "Creating a PrestaShop module" page
@@ -25,7 +25,7 @@ Modules and the override system are explored in this Developer Guide, starting w
   As a developer, you can also share your modules on this site, and receive 70% of the amounts associated with the sale of your creations. Sign up now!
 
 
-Concepts
+概念
 ########
 
 You should be familiar with PHP and Object-Oriented Programming before attempting to write your own module.
@@ -51,7 +51,7 @@ It is not recommended to use an override in a module that you intend to distribu
 
 
 
-PrestaShop's technical architecture
+PrestaShop技术架构
 ###################################
 
 PrestaShop is based on a 3-tier architecture:
@@ -103,7 +103,7 @@ The Controller manages synchronization events between the Model and the View, an
 If an action needs data to be changed, the Controller will "ask" the Model to change the data, and in turn the Model will notify the View that the data has been changed, so that the View can update itself.
 
 
-Database schema
+数据库模型
 ###############
 
-You can download the PrestaShop 1.6 SQL schema in PDF form (3.90 Mb), or in the original MySQL Workbench file format (you will need MySQL Workbench to view it).
+你可以下载PrestaShop 1.6 数据库模型PDF档(3.90 Mb), 或者通过MySQL Workbenchs来查看.

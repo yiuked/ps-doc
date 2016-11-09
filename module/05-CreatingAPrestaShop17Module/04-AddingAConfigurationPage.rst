@@ -1,4 +1,4 @@
-Adding a configuration page
+添加一个配置页
 ==============================================
 
 Your module can get a "Configure" link in the back office module list,

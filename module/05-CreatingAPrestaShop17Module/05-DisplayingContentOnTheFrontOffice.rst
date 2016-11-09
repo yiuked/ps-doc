@@ -1,4 +1,4 @@
-Displaying content on the front office
+在前台显示内容
 ============================================================
 
 As it is, the module does not do much. In order to display something on

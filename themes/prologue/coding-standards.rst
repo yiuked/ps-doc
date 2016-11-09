@@ -1,7 +1,7 @@
-Coding standard and guidelines
+编码标准与规则
 ================================
 
-General code guideline
+基本代码规范
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Intend with spaces for every language (PHP, HTML, CSS, etc.): 4 spaces for PHP files, 2 spaces for all other filetypes.
@@ -9,7 +9,7 @@ Intend with spaces for every language (PHP, HTML, CSS, etc.): 4 spaces for PHP f
 Use our `.editorconfig file <http://editorconfig.org/>`_  in order to easily configure your editor: https://github.com/PrestaShop/PrestaShop/blob/develop/.editorconfig
 
 
-PHP files
+PHP 文件
 ~~~~~~~~~
 
 You should follow the `PSR-2 standard <http://www.php-fig.org/psr/psr-2/>`_, just like PrestaShop does.
@@ -17,7 +17,7 @@ You should follow the `PSR-2 standard <http://www.php-fig.org/psr/psr-2/>`_, jus
 In general, we tend to follow `Symfony's coding standards <http://symfony.com/doc/current/contributing/code/standards.html>`_.
 
 
-HTML file
+HTML 文件
 ~~~~~~~~~
 
 Use HTML 5 tags:

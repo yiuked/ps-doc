@@ -1,4 +1,4 @@
-Migrating from PrestaShop 1.6
+从PrestaShop 1.6更新
 ================================
 
 PrestaShop 1.7 introduces a totally reworked theme system from version 1.6, with the goal of making PrestaShop upgrades easier, and of making it easier/faster to create a brand new theme.

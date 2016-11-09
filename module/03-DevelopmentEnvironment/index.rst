@@ -1,13 +1,13 @@
 *********************************************
-Setting Up Your Local Development Environment
+建立你的本地开发环境
 *********************************************
 
 Now that you intend to develop for PrestaShop, you are better off keeping all your development work on your machine. The main advantage is that it makes it possible for you to entirely bypass the process of uploading your file on your online server in order to test it. Another advantage is that a local test environment enables you to test code without the risk of breaking your production store. Have a local environment is the essential first step in the path of web development.
 
-Installing PrestaShop locally
+在本地安装PrestaShop
 #############################
 
-Prerequisites
+安装要求
 *************
 
 PrestaShop needs the following server configuration in order to run:
@@ -21,7 +21,7 @@ PrestaShop needs the following server configuration in order to run:
 PrestaShop can also work with Microsoft's IIS Web server 6.0 or later, and nginx 1.0 or later.
 
 
-Installing a local environment
+安装本地开发环境
 ******************************
 
 Installing any web-application locally requires that you first install the adequate environment, namely the Apache web server, the PHP language interpreter, the MySQL database server, and ideally the phpMyAdmin tool. This is called an AMP package: Apache+MySQL+PHP and the operating system, giving WAMP (Windows+Apache+MySQL+PHP), MAMP (Mac OS X+...) and LAMP (Linux+...). Since all of the items packaged are open-source, these installers are most of the time free.
@@ -35,7 +35,7 @@ Here is a selection of free AMP installer:
 
 
 
-Configuring PHP
+配置 PHP
 ***************
 
 PrestaShop needs a few additions to PHP and MySQL in order to fully work. Make sure that your PHP configuration has the following settings and tools:
@@ -53,14 +53,14 @@ Here is a section of the ``php.ini`` file (the configuration file for PHP):
   extension = php_mysql.dll
   extension = php_gd2.dll
   allow_url_fopen = On
-       
+
   # also recommended
   register_globals = Off
   magic_quotes_gpc = Off
   allow_url_include = Off
 
 
-Downloading and extracting the PrestaShop files
+下载并解压 PrestaShop 文件
 ***********************************************
 
 You can download the latest version of PrestaShop at http://www.prestashop.com/en/downloads.
@@ -75,7 +75,7 @@ Extract the PrestaShop files, and put them in the root folder of the AMP install
 * MAMP: /Applications/MAMP/htdocs/
 
 
-Creating a database for your local shop
+创建本地数据库
 ========================================
 
 Open the phpMyAdmin tool using your browser. Its location depends on the AMP pack you chose:
@@ -86,7 +86,7 @@ Open the phpMyAdmin tool using your browser. Its location depends on the AMP pac
 In the "Databases" tab, indicate the database name you want and validate by clicking on the "Create a database" button.
 
 
-Installing PrestaShop
+安装 PrestaShop
 *********************
 
 Open the PrestaShop installer, which should be located at http://127.0.0.1/prestashop/install, and follow its instructions.
@@ -94,15 +94,15 @@ Open the PrestaShop installer, which should be located at http://127.0.0.1/prest
 You can read the Getting Started guide for more details: http://doc.prestashop.com/display/PS16/Getting+Started.
 
 
-Configuring PrestaShop
-######################  
+配置 PrestaShop
+######################
 
 By default, PrestaShop is configured to provide a secure and stable environment to both the shop administrator and the customers.
 
 As a developer, there are several changes that you could and should bring to the default installation in order to help you code better, spot bugs faster, and generally make a great PrestaShop product.
 
 
-Disabling the cache and forcing Smarty compilation
+关闭缓存并开启Smarty强制编译
 **************************************************
 
 When your development has an impact on the front office, whether you are building a theme or simply a module which displays information to the customer, you should force the template file compilation and disable the cache, so as to always see the result of your changes directly.
@@ -115,7 +115,7 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 Forcing the compilation of Smarty will always slow down the loading time of the page. Make sure that your production store is set to only recompile templates if there are updated files, and that its cache is enabled.
 
 
-Displaying error messages
+显示错误信息
 *************************
 
 PrestaShop's default settings prevent the customer to see any server error message or any debugging code.
@@ -127,7 +127,7 @@ You, on the other hand, need this information in order to correct any potential 
   define('_PS_MODE_DEV_', true);
 
 
-Using the dump() method
+使用 dump() 方法
 ***********************
 
 These two methods enable you to check for the state of a given variable at a specific place within your code.
@@ -139,19 +139,19 @@ All of this has changed with PrestaShop 1.7: we now rely solely on Symonfy's `Va
 The ``dump()`` method is not activated by default. To activate it, you must enable the Debug mode, by setting ``_PS_MODE_DEV_`` to true (see above).
 
 
-Enabling the multistore mode
+开启多店模式
 ############################
 
 Since version 1.5, PrestaShop is able to host more than one store within a single installation of the software. Many shop administrators choose to enable this feature, and it can have a significant impact on the way PrestaShop works. You should therefore make sure that anything you code for PrestaShop works in both single and multistore mode.
 
 Enabling the multistore mode is easy: go to the general preferences page, and put the "Enable Multistore" option to "Yes".
 
-You can switch back and forth between single store and multistore mode � in single store mode, only the main store is used.
+You can switch back and forth between single store and multistore mode � in single store mode, only the main store is used.
 
 You can read more about the multistore mode in the PrestaShop 1.6 User Guide: http://doc.prestashop.com/display/PS16/Managing+Multiple+Shops.
 
 
-About the configuration files
+关于配置文件
 #############################
 
 There are three main configuration files, all located in the ``/config`` folder:
@@ -201,7 +201,7 @@ On the other hand, when editing a ``.tpl`` file, you must delete the ``/tools/sm
 Note that this setting can be made directly from the back office, in the "Performance" page under the "Advanced parameters" menu.
 
 
-Keeping things secure
+文件安全
 #####################
 
 Once your module is online, its files could be accessed by anyone from the Internet. Even if they cannot trigger anything but PHP errors, you might want to prevent this from happening.

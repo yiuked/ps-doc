@@ -1,5 +1,5 @@
 ****************
-Asset Management
+资源管理
 ****************
 
 PrestaShop 1.7 has significantly improved the way assets (CSS, JavaScript and image files) are managed.
@@ -14,7 +14,7 @@ Your theme have to print assets correctly in the smarty template, and it's :doc:
 in the template section <../templates/05-head.rst>`.
 
 
-Registering assets
+注册资源
 =======================
 
 In PrestaShop 1.7+, it's easy to register custom assets on each pages. The major improvement

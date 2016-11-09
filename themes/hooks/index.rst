@@ -1,16 +1,16 @@
 ***********
-FO Hooks
+Hooks
 ***********
 
 This section of the documentation is only about front office hooks: display and action.
 
-All Hooks
+所有Hooks
 ------------
 
 // TODO create page with table listing the content of the `hooks.json` file.
 
 
-Creating a custom hook
+自定义一个hook
 --------------------
 
 Creating a dynamic hook

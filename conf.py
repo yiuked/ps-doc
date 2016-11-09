@@ -111,8 +111,8 @@ todo_include_todos = True
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = 'alabaster'
+# a list of builtin themes.# nature
+html_theme = 'nature'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -124,7 +124,7 @@ html_theme = 'alabaster'
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = u'PrestaShop Developer Documentation v1.7.0.0'
+html_title = u'PrestaShop 中文开发文档 v1.7.0.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -168,13 +168,13 @@ html_static_path = ['_static']
 #html_domain_indices = True
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
@@ -194,7 +194,7 @@ html_static_path = ['_static']
 # Sphinx supports the following languages:
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr', 'zh'
-#html_search_language = 'en'
+html_search_language = 'zh_CN'
 
 # A dictionary with options for the search language support, empty by default.
 # 'ja' uses this config value.
@@ -228,8 +228,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PrestaShopDeveloperDocumentation.tex', u'PrestaShop Developer Documentation Documentation',
-     u'PrestaShop Team', 'manual'),
+    (master_doc, 'PrestaShopDeveloperDocumentation.tex', u'PrestaShop中文开发文档',
+     u'游天小虾', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -258,7 +258,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'prestashopdeveloperdocumentation', u'PrestaShop Developer Documentation Documentation',
+    (master_doc, 'prestashopdeveloperdocumentation', u'PrestaShop中文开发文档',
      [author], 1)
 ]
 
@@ -272,7 +272,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PrestaShopDeveloperDocumentation', u'PrestaShop Developer Documentation Documentation',
+    (master_doc, 'PrestaShopDeveloperDocumentation', u'PrestaShop中文开发文档',
      author, 'PrestaShopDeveloperDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]

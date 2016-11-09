@@ -1,4 +1,4 @@
-Coding Standards
+编码规范
 ========================
 
 Consistency is important, even more so when writing open-source code, since the
@@ -50,7 +50,7 @@ of May 10th, 2016 (for PrestaShop 1.6.1.5+ and PrestaShop 1.7):
   `Same as with PrestaShop 1.6`_.
 
 
-About the code validator (PHP CodeSniffer)
+关于代码验证 (PHP CodeSniffer)
 ==========================================
 
 The CodeSniffer configuration file is not yet available. Thank you for your patience!

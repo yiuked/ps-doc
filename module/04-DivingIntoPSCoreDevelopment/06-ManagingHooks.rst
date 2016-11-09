@@ -1,4 +1,4 @@
-Managing Hooks
+管理 Hooks
 =================================
 
 Hooks are a way to associate your code to some specific PrestaShop
